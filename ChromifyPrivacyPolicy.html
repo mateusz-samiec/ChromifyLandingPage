@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#050711">
+  <title>Chromify - Privacy Policy</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --ink: #f7fbff;
+      --muted: rgba(226, 235, 255, 0.74);
+      --line: rgba(255, 255, 255, 0.14);
+      --panel: rgba(9, 14, 30, 0.78);
+      --cyan: #36f5ff;
+      --pink: #ff3fd4;
+      --green: #61ff94;
+      --max: 940px;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      min-height: 100vh;
+      margin: 0;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at 16% 8%, rgba(255, 63, 212, 0.28), transparent 30rem),
+        radial-gradient(circle at 84% 12%, rgba(54, 245, 255, 0.24), transparent 32rem),
+        linear-gradient(135deg, #050711 0%, #0a1022 48%, #110817 100%);
+      font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", sans-serif;
+      line-height: 1.62;
+    }
+
+    a { color: inherit; text-decoration: none; }
+
+    .page {
+      width: min(var(--max), calc(100% - 32px));
+      margin: 0 auto;
+      padding: 24px 0 64px;
+    }
+
+    .nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 18px;
+      margin-bottom: 50px;
+      padding: 12px 14px 12px 16px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: rgba(6, 10, 22, 0.64);
+      box-shadow: 0 18px 50px rgba(0, 0, 0, 0.28);
+      backdrop-filter: blur(24px);
+    }
+
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      font-weight: 780;
+      letter-spacing: -0.04em;
+    }
+
+    .mark {
+      width: 32px;
+      height: 32px;
+      border-radius: 10px;
+      background: linear-gradient(135deg, var(--cyan), var(--pink) 55%, var(--green));
+      box-shadow: 0 0 24px rgba(54, 245, 255, 0.38), inset 0 0 16px rgba(255,255,255,0.24);
+    }
+
+    .button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 44px;
+      padding: 0 16px;
+      border: 1px solid rgba(255,255,255,0.18);
+      border-radius: 999px;
+      color: var(--ink);
+      font-weight: 760;
+      background: rgba(255,255,255,0.08);
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      margin: 0 0 14px;
+      padding: 8px 12px;
+      border: 1px solid rgba(255,255,255,0.14);
+      border-radius: 999px;
+      color: rgba(247,251,255,0.84);
+      background: rgba(255,255,255,0.07);
+      font-size: 0.88rem;
+      font-weight: 650;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(3rem, 8vw, 5.8rem);
+      line-height: 0.9;
+      letter-spacing: -0.09em;
+    }
+
+    h2 {
+      margin: 34px 0 8px;
+      font-size: 1.25rem;
+      letter-spacing: -0.04em;
+    }
+
+    p, li {
+      color: var(--muted);
+    }
+
+    .lead {
+      max-width: 720px;
+      margin: 18px 0 28px;
+      font-size: 1.08rem;
+    }
+
+    .card {
+      padding: clamp(22px, 4vw, 38px);
+      border: 1px solid var(--line);
+      border-radius: 34px;
+      background: var(--panel);
+      box-shadow: 0 28px 90px rgba(0, 0, 0, 0.42);
+      backdrop-filter: blur(24px);
+    }
+
+    footer {
+      display: flex;
+      justify-content: space-between;
+      gap: 16px;
+      margin-top: 28px;
+      color: rgba(226, 235, 255, 0.54);
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 640px) {
+      .nav { border-radius: 24px; }
+      h1 { font-size: 3.4rem; }
+      footer { flex-direction: column; }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <nav class="nav" aria-label="Legal navigation">
+      <a class="brand" href="ChromifyLandingPage.html"><span class="mark" aria-hidden="true"></span><span>Chromify</span></a>
+      <a class="button" href="ChromifyLandingPage.html">Back to home</a>
+    </nav>
+
+    <header>
+      <p class="eyebrow">Legal</p>
+      <h1>Privacy Policy</h1>
+      <p class="lead">Effective Date: To be finalized before release This Privacy Policy explains how Chromify handles information when you use the app. Chromify is designed as an on-device camera effects app for real-time visual processing, recording, and creative experiments.</p>
+    </header>
+
+    <article class="card">
+      <h2>1. Summary</h2>
+      <p>Chromify is designed to process camera, depth, LiDAR, ARKit, and rendering data locally on your device. We do not operate a user account system, cloud gallery, social feed, analytics platform, or advertising SDK inside the app.</p>
+
+      <h2>2. Information We Do Not Collect</h2>
+      <p>Chromify does not collect, sell, rent, or share personal information with the developer.</p>
+      <p>Chromify does not:</p>
+      <ul>
+        <li>Require user registration or a cloud account.</li>
+        <li>Upload your camera feed, LiDAR data, depth maps, recordings, recorded videos, or generated visual effects to our servers.</li>
+        <li>Use third-party advertising SDKs.</li>
+        <li>Use third-party analytics SDKs.</li>
+        <li>Track you across apps or websites.</li>
+        <li>Access your contacts.</li>
+      </ul>
+
+      <h2>3. Camera, LiDAR, Depth, and AR Data</h2>
+      <p>Chromify uses device camera access and Apple-provided frameworks such as ARKit, depth APIs, LiDAR-supported features, Metal rendering, and related on-device technologies to create real-time video effects.</p>
+      <p>Depending on the selected effect, the app may process:</p>
+      <ul>
+        <li>Camera frames.</li>
+        <li>Depth maps.</li>
+        <li>LiDAR or ARKit scene information.</li>
+        <li>Device motion and camera pose data.</li>
+        <li>Person segmentation masks or scene classification data provided by Apple frameworks.</li>
+        <li>Generated rendered frames and recorded videos.</li>
+      </ul>
+      <p>This processing is performed locally on your device. The developer does not receive this data.</p>
+
+      <h2>4. Recorded Videos and Sharing</h2>
+      <p>When you record a video, the resulting file is stored locally on your device or shared only when you explicitly choose to share it using iOS sharing features.</p>
+      <p>You control the content you create and share. If you delete local files from your device, Chromify does not retain copies on a remote server.</p>
+
+      <h2>5. Video and Files Access</h2>
+      <p>If Chromify asks for access to videos, the photo library, or files, that access is used only to save, preview, manage, or share recorded videos at your request.</p>
+
+      <h2>6. Subscriptions and Purchases</h2>
+      <p>Chromify is offered as an annual auto-renewable subscription for access to the entire app. The subscription price is US$1 per year after a 3-day free trial, or the local equivalent shown by Apple before purchase.</p>
+      <p>All payment processing, free trials, subscription management, billing, refunds, renewals, and payment details are handled by Apple. The developer does not receive your full payment card details, Apple ID password, billing address, or other payment credentials.</p>
+      <p>You can manage or cancel subscriptions in your Apple Account settings.</p>
+
+      <h2>7. App Store and Apple Services</h2>
+      <p>Apple may process certain information as part of App Store downloads, purchases, subscriptions, crash reporting, diagnostics, or platform services, depending on your device settings and Apple policies. Those Apple-controlled services are governed by Apple privacy terms.</p>
+
+      <h2>8. Children</h2>
+      <p>Chromify is not directed to children under 13. The app does not include a public social feed, public gallery, chat system, or user account feature, and it is designed not to collect personal information from users.</p>
+
+      <h2>9. Data Security</h2>
+      <p>Because Chromify is designed around local processing, your recorded videos remain under your control on your device unless you choose to share them. You are responsible for securing your device, backups, and shared files.</p>
+
+      <h2>10. Changes to This Policy</h2>
+      <p>We may update this Privacy Policy to reflect app changes, platform requirements, legal requirements, or improved wording. The updated version will be made available in the app, on the App Store listing, or on the Chromify website.</p>
+
+      <h2>11. Contact</h2>
+      <p>If you have questions about this Privacy Policy, contact:</p>
+      <p>Email: LiDARo.3D@protonmail.com</p>
+    </article>
+
+    <footer>
+      <span>Copyright 2026 Chromify. All rights reserved.</span>
+      <span><a href="ChromifyTermsOfUse.html">Terms of Use</a></span>
+    </footer>
+  </main>
+</body>
+</html>
